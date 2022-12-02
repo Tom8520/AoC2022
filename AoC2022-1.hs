@@ -44,5 +44,5 @@ part2
 
 main:: IO ()
 main = do
-    n <- part2
+    n <- part1 0
     print n
