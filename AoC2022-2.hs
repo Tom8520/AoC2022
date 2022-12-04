@@ -7,7 +7,7 @@ getScorePart1 a b
   | otherwise                = y
   where
     x = ord (head a) - ord 'A' + 1
-    y = if b == "X" then 1 else if b == "Y" then 2 else 3
+    y = ord (head b) - ord 'X' + 1
 
 part1:: Int -> IO Int
 part1 c = do
