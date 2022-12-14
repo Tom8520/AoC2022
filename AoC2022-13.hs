@@ -67,3 +67,4 @@ part2 = do
     let decode = [x+1 | x <- [0..length sorted-1], sorted!!x == "[[2]]" || sorted!!x == "[[6]]"]
 
     return $ product decode
+    
